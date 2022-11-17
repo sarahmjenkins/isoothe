@@ -1,0 +1,19 @@
+.option-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  flex-direction: row;
+}
+
+.option {
+  margin: 15px;
+}
+
+.option-icon {
+  border-radius: 50%;
+}
+
+.option-title {
+  margin-top: 3px;
+}
