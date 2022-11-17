@@ -1,5 +1,6 @@
 import TechniqueBlock from "./TechniqueBlock";
 import "../styles/home.css";
+import image from "../images/home-banner-image.jpg";
 
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
       <h1 className="home__heading">iSoothe</h1>
       <img
         className="home__banner-image"
-        src="https://unsplash.com/photos/62t_kKa2YlA"
+        src={image}
         alt="north Iran sunset"
       />
         <ul className="home__list">
