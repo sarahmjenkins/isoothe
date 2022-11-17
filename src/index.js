@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Home from './components/Home'
+import Home from './components/Home';
+import Ground from './components/Ground';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
@@ -14,6 +15,7 @@ root.render(
         <Route exact path="/" element={<App />} />
           {/* these are nested within "/" App */}
           <Route path="/home" element={<Home />} />
+          <Route path="/ground" element={<Ground />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
