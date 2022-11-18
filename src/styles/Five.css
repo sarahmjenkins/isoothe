@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+
+.five-div {
+    background-color: #ee8293;
+    height: 100vh;
+}
+
+.five-container {
+    background-image: url("../images/bg-grad.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.five-h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 2rem;
+}
+
+.five-h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 1.8rem;
+}
+
+.five-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.five-form input {
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+.five-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    border: 2px solid #0a7a98;
+    border-radius: 30px;
+    background-color: #0a7a98;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.five-link:hover {
+    background-color: white;
+    color: #0a7a98;
+}
