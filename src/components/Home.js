@@ -1,6 +1,6 @@
 import TechniqueBlock from "./TechniqueBlock";
 import "../styles/home.css";
-import image from "../images/home-banner-image.jpg";
+import image from "../images/gdibackground1.png";
 
 const Home = () => {
   return (
