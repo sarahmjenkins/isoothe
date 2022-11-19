@@ -2,12 +2,14 @@
 
 .home {
   height: 100%;
-  background: url('../images/gdibackground2.png');
   background-color: rgba(255, 192, 203, 0.2);
 }
 
 .home-contain {
   height: 100%;
+  background: url('../images/gdibackground2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-bottom: 20px;
   background-color: rgba(255, 192, 203, 0.2);
 }
