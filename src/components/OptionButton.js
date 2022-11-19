@@ -1,12 +1,14 @@
 import React from 'react';
 import '../styles/OptionButton.css';
 
-const OptionButton = ({ optionName }) => {
+const OptionButton = ({ optionName, optionImg}) => {
   return (
-    <li className="option">
-        <img src="https://via.placeholder.com/50" alt="icon" className="option-icon" />
-        <p className="option-title">{ optionName }</p>
-    </li>
+    <div className='option-container'>
+      <li className="option">
+          <img src={optionImg} alt="icon" className="option-icon" />
+          <p className="option-title">{ optionName }</p>
+      </li>
+    </div>
   );
 }
 

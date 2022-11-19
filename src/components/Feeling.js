@@ -3,6 +3,10 @@ import '../styles/Feeling.css';
 import { Link } from 'react-router-dom';
 import Frown from '../images/frown.svg';
 import Smile from '../images/smile.svg';
+import Music from '../images/b-music.png';
+import Vibe from '../images/b-vibe.png';
+import Play from '../images/b-play.png';
+import Voice from '../images/b-voice.png';
 import OptionButton from './OptionButton';
 import YoutubeEmbed from './YoutubeEmbed';
 
@@ -28,13 +32,14 @@ const Feeling = () => {
                         <Link className='feeling-link' to={"/home"}>NO</Link>
                     </div>
                 </article>
+                    <h3 className='feeling-h3'>No - I want to try another technique</h3>
             </section>
 
             <ul className="option-container">
-                <OptionButton optionName="Music" />
-                <OptionButton optionName="Vibrate" />
-                <OptionButton optionName="Video" />
-                <OptionButton optionName="Voice" />
+                <OptionButton optionImg={Music} optionName="Music" />
+                <OptionButton optionImg={Vibe} optionName="Vibrate" />
+                <OptionButton optionImg={Play} optionName="Video" />
+                <OptionButton optionImg={Voice} optionName="Voice" />
             </ul>
             </div>
         </div> 

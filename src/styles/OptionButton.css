@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   list-style: none;
-  flex-direction: row;
+  margin-top: 20px;
 }
 
 .option {

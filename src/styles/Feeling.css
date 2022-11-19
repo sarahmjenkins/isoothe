@@ -28,6 +28,13 @@
     font-size: 1.8rem;
 }
 
+.feeling-h3 {
+    text-align: center;
+    color: #0a7a98;
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 1.2rem;
+}
+
 .feeling-section {
     background-color: rgba(255, 255, 255, 0.3);
     margin: 20px;
