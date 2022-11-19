@@ -1,67 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu&display=swap');
-
-/* body {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
 
 .App {
-  position: absolute;
-  width: 658px;
-  height: 852px;
-  /* left: -159px; */
+  width: 100%;
+  height: 100vh;
   background: url('./images/gdibackground1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app-contain {
+  height: 100vh;
+  margin: auto;
+  background-color: rgba(255, 192, 203, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.app-sect-one {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app-img {
+  width: 60%;
+  margin: auto;
 }
 
 .title {
-  /* Code from Figma */
-  position: absolute;
-  width: 393px;
-  height: 160px;
-  /* left: 159px; */
-
-  font-family: 'Tiro Telugu', serif;
-  font-style: normal;
+  margin: 5px auto;
+  font-size: 4rem;
   font-weight: 400;
-  font-size: 48px;
-  line-height: 86px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  letter-spacing: -0.02em;
-
+  font-family: 'Tiro Telugu', serif;
   color: #FFFFFF;
 }
 
-.enter-button {
-  /* Code from Figma */
+.app-h2 {
+  margin-top: -30px;
+  font-size: 1.3rem;
+  font-family: 'Nunito', 'sans-serif';
+  color: white;
+}
+
+.app-sect-two {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 12px 32px;
-  gap: 10px;
+  justify-content: center;
+}
 
-  position: absolute;
-  width: 234px;
-  height: 80px;
-  left: 80px;
-  top: 659px;
+.home__link {
+  width: 70%;
+  text-decoration: none;
+}
 
+.enter-button {
+  width: 100%;
   background: linear-gradient(180deg, #45B3B2 0%, #177997 100%);
   box-shadow: inset 0px -2px 2px 1px #107283;
+  border: none;
   border-radius: 20px;
-
   font-family: 'Tiro Telugu', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 56px;
-  /* identical to box height, or 140% */
-
-  justify-content: center;
-
+  font-size: 2.5rem;
   color: #FFFFFF;
-
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
 }

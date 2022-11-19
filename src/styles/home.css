@@ -1,28 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu&display=swap');
 
 .home {
-  position: absolute;
-  width: 663px;
-  height: 852px;
-  /* left: -163px; */
-  top: 0px;
-
+  height: 100vh;
   background: url('../images/gdibackground2.png');
+  background-color: rgba(255, 192, 203, 0.2);
+}
+
+.home-contain {
+  height: 100vh;
+  background-color: rgba(255, 192, 203, 0.2);
 }
 
 .home__heading {
-  position: absolute;
-  width: 240px;
-  height: 98px;
   font-family: 'Tiro Telugu', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  line-height: 57px;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
-  letter-spacing: -0.02em;
   color: #FFFFFF;
 }
 
