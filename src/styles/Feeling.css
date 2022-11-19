@@ -25,27 +25,40 @@
     font-size: 1.8rem;
 }
 
-.feeling-form {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
+.feeling-section {
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
 }
 
-.feeling-form input {
-    height: 35px;
-    margin-bottom: 10px;
-    padding-left: 15px;
-    border: none;
-    border-radius: 20px;
+
+.feeling-article {
+    display: flex;
+    margin: auto 10px;
+}
+
+.feeling-face {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 10px;
+    padding: 20px 20px;
+    width: 100%;
+    background-color: #0a7a98;
+    border-radius: 10px;
+}
+
+.feeling-img {
+    width: 50%;
+    margin: 10px auto;
 }
 
 .feeling-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
-    height: 50px;
     margin: auto;
     border: 2px solid #0a7a98;
     border-radius: 30px;
@@ -57,9 +70,4 @@
     letter-spacing: 2px;
     text-decoration: none;
     transition: 0.4s ease;
-}
-
-.feeling-form Link:hover {
-    background-color: white;
-    color: #0a7a98;
 }

@@ -13,7 +13,7 @@ const Five = () => {
             {/* Placeholder ocean waves video */}
             <YoutubeEmbed embedId="LIrDzA5iLtM" />
 
-            <section>
+            <section className='five-section'>
                 <h2 className='five-h2'>List 5 Things You Can See</h2>
                 <form className='five-form'>
                     <input placeholder='1'></input>

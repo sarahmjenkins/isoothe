@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Feeling.css';
 import { Link } from 'react-router-dom';
+import Frown from '../images/frown.svg';
+import Smile from '../images/smile.svg';
 import OptionButton from './OptionButton';
 import YoutubeEmbed from './YoutubeEmbed';
 
@@ -13,13 +15,19 @@ const Feeling = () => {
             {/* Placeholder ocean waves video */}
             <YoutubeEmbed embedId="LIrDzA5iLtM" />
 
-            <section>
-                <h2 className='feeling-h2'>How Are You Feeling?</h2>
-                <form className='feeling-form'>
-                    <input placeholder='1'></input>
-                    <input placeholder='2'></input>
-                    <Link className='feeling-link' to={"/#"}>NEXT</Link>
-                </form>
+            <section className='feeling-section'>
+                <h2 className='feeling-h2'>Are You Feeling Better?</h2>
+                <article className='feeling-article'>
+                    <div className='feeling-face'>
+                        <img className='feeling-img' src={Smile} alt={'smile-face'}></img>
+                        <Link className='feeling-link' to={"/#"}>YES</Link>
+                    </div>
+                    <div className='feeling-face'>
+                        <img className='feeling-img' src={Frown} alt={'frown-face'}>
+                        </img>
+                        <Link className='feeling-link' to={"/#"}>NO</Link>
+                    </div>
+                </article>
             </section>
 
             <ul className="option-container">
