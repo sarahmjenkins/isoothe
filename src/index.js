@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Home from './components/Home';
-import Ground from './components/Ground';
+import Home from './Components/Home';
+import Ground from './Components/Ground';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
+import Five from './Components/Five';
+import Feeling from './Components/Feeling';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,8 +16,10 @@ root.render(
       <Routes>
         <Route exact path="/" element={<App />} />
           {/* these are nested within "/" App */}
-          <Route path="/home" element={<Home />} />
-          <Route path="/ground" element={<Ground />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/ground" element={<Ground />} />
+        <Route path="/five" element={<Five />} />
+        <Route path="/feeling" element={<Feeling />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
