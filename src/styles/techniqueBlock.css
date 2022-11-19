@@ -1,12 +1,32 @@
 .item-container {
-  background-color: #d9d9d9;
-  border-radius: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(180deg, #45B3B2 0%, #177997 100%);
+  box-shadow: inset 0px -2px 2px 1px #107283;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  /* left: 20px; */
+  /* top: 160px; */
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .item-title {
-  color: #000;
-  font-family: "Hind Vadodara", sans-serif;
+  width: 100px;
+  height: 56px;
+
+  font-family: 'Tiro Telugu', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 56px;
+  /* identical to box height, or 280% */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
 }
