@@ -16,6 +16,7 @@ const Home = () => {
       
       <ul className="home__list">
         <TechniqueBlock techniqueName="Ground" slug="/ground"/>
+        <TechniqueBlock techniqueName="Senses" slug="/senses" />
         <TechniqueBlock techniqueName="Deep Breaths" />
         <TechniqueBlock techniqueName="Meditate" />
         <TechniqueBlock techniqueName="Stretch" />
@@ -23,6 +24,7 @@ const Home = () => {
         <TechniqueBlock techniqueName="Forum & Chats" />
         <TechniqueBlock techniqueName="Resources" />
         <TechniqueBlock techniqueName="Journal" />
+        <TechniqueBlock techniqueName="About" />
       </ul>
       </div>
     </div>
