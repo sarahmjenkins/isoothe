@@ -1,0 +1,24 @@
+.ground {
+    background-color: #ee8293;
+    height: 100vh;
+}
+
+.ground-contain {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../images/bg-grad.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ground-h1 {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 2rem;
+}

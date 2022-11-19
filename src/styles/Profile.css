@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+
+.profile-div {
+    background-color: #ee8293;
+    height: 100vh;
+}
+
+.profile-container {
+    background-image: url("../images/bg-grad.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.profile-nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-lotus {
+    width: 10%;
+}
+
+.profile-nav i {
+    padding: 10px;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+
+.profile-pic {
+    width: 40%;
+    margin: auto;
+    border: 8px solid white;
+    border-radius: 100%;
+}
+
+.profile-h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 1.8rem;
+}
+
+
+.profile-stats {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+.profile-streak {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-p1 {
+    margin-top: auto;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Nunito', 'sans-serif';
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.profile-p2 {
+    margin-top: auto;
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'Nunito', 'sans-serif';
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.profile-p3 {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-family: 'Nunito', 'sans-serif';
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.profile-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 30px;
+    border: 2px solid #0a7a98;
+    background-color: #0a7a98;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.profile-link:hover {
+    background-color: white;
+    color: #0a7a98;
+}

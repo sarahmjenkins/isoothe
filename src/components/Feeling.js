@@ -20,12 +20,12 @@ const Feeling = () => {
                 <article className='feeling-article'>
                     <div className='feeling-face'>
                         <img className='feeling-img' src={Smile} alt={'smile-face'}></img>
-                        <Link className='feeling-link' to={"/#"}>YES</Link>
+                        <Link className='feeling-link' to={"/result"}>YES</Link>
                     </div>
                     <div className='feeling-face'>
                         <img className='feeling-img' src={Frown} alt={'frown-face'}>
                         </img>
-                        <Link className='feeling-link' to={"/#"}>NO</Link>
+                        <Link className='feeling-link' to={"/home"}>NO</Link>
                     </div>
                 </article>
             </section>

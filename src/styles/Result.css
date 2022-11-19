@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
 
-.feeling-div {
+.result-div {
     background-color: #ee8293;
     height: 100vh;
 }
 
-.feeling-container {
+.result-container {
     background-image: url("../images/bg-grad.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.feeling-h1 {
+.result-h1 {
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -21,14 +21,15 @@
     font-size: 2rem;
 }
 
-.feeling-h2 {
+.result-h2 {
+    margin: 20px 20px;
     text-align: center;
     color: white;
     font-family: 'Nunito', 'sans-serif';
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
-.feeling-section {
+.result-section {
     background-color: rgba(255, 255, 255, 0.3);
     margin: 20px;
     padding-top: 20px;
@@ -36,32 +37,28 @@
     border-radius: 10px;
 }
 
-
-.feeling-article {
-    display: flex;
-    margin: auto 10px;
-}
-
-.feeling-face {
+.result-form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 0px 10px;
-    padding: 20px 20px;
-    width: 100%;
-    background-color: #0a7a98;
+    width: 80%;
+    margin: auto;
+}
+
+.result-form textarea {
+    height: 150px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border: none;
     border-radius: 10px;
 }
 
-.feeling-img {
-    width: 50%;
-    margin: 10px auto;
-}
-
-.feeling-link {
+.result-link {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 70%;
+    height: 50px;
     margin: auto;
     border: 2px solid #0a7a98;
     border-radius: 30px;
@@ -73,4 +70,9 @@
     letter-spacing: 2px;
     text-decoration: none;
     transition: 0.4s ease;
+}
+
+.result-link:hover {
+    background-color: white;
+    color: #0a7a98;
 }

@@ -15,5 +15,7 @@
 }
 
 .option-title {
+  color: white;
+  font-weight: 600;
   margin-top: 3px;
 }

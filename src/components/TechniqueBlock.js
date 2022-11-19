@@ -3,7 +3,7 @@ import "../styles/techniqueBlock.css";
 
 const TechniqueBlock = ({ techniqueName, slug }) => {
   return (
-    <Link to={slug}>
+    <Link className="item-link" to={slug}>
       <li className="item-container">
         <h3 className="item-title">{ techniqueName }</h3>
       </li>

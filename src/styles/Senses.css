@@ -1,0 +1,23 @@
+.senses-main {
+    height: 100vh;
+    font-size: 16px;
+    background-color: rgb(173, 127, 193);
+    text-align: center;
+}
+
+.senses-contain {
+    height: 100%;
+    background-color: rgb(173, 127, 193);
+}
+
+.senses-h1 {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.senses-h2 {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
