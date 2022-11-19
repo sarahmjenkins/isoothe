@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import Five from './Components/Five';
 import Feeling from './Components/Feeling';
+import Result from './Components/Result';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
         <Route path="/ground" element={<Ground />} />
         <Route path="/five" element={<Five />} />
         <Route path="/feeling" element={<Feeling />} />
+        <Route path="/result" element={<Result />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
